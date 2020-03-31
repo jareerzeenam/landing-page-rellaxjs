@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-:root {
-  --primary-color: #2d2254;
-  --secondary-color: #f5c42f;
-  --text-color: #c5bbec;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -14,10 +8,10 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: var(--primary-color);
   color: #fff;
   font-size: 18px;
   line-height: 1.6;
+  background: linear-gradient(135deg, #2d2255 0%, #302459 100%);
 }
 
 h1,
@@ -39,7 +33,7 @@ ul {
 .btn {
   display: inline-block;
   border: 0;
-  background: var(--secondary-color);
+  background: #f5c42f;
   color: #fff;
   border-radius: 20px;
   padding: 8px 30px;
@@ -55,11 +49,11 @@ ul {
 }
 
 .primary-text {
-  color: var(--primary-color);
+  color: #2d2254;
 }
 
 .secondary-text {
-  color: var(--secondary-color);
+  color: #f5c42f;
 }
 
 section {
@@ -124,11 +118,11 @@ section {
 }
 
 .section-grid i {
-  color: var(--secondary-color);
+  color: #f5c42f;
 }
 
 .section-grid p {
-  color: var(--text-color);
+  color: #c5bbec;
 }
 
 .section-grid .dot {
@@ -144,7 +138,7 @@ section {
 }
 
 .footer {
-  border-top: var(--text-color) 1px solid;
+  border-top: #c5bbec 1px solid;
   padding: 30px;
   margin-top: 20px;
 }
@@ -163,19 +157,19 @@ section {
 
 .footer li {
   padding: 10px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .footer li:hover {
-  background: var(--secondary-color);
+  background: #f5c42f;
   border-radius: 20px;
   -webkit-transform: scale(0.98);
           transform: scale(0.98);
 }
 
 .footer li:hover a {
-  color: var(--primary-color);
+  color: #2d2254;
   font-weight: bold;
 }
 
